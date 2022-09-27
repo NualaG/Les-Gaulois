@@ -38,11 +38,7 @@ public class Gaulois {
 		Gaulois asterix = new Gaulois("Asterix", 8);
 		System.out.println(asterix);
 		
-		System.out.println(asterix.prendreParole());
-		
-		asterix.frapper(Romain);
-		
-
+		String texte = asterix.prendreParole();
 	}
 }
 
