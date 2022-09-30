@@ -31,7 +31,7 @@ public class Druide {
 		Random random = new Random();
 		forcePotion = random.nextInt(9);
 		
-		if (random > 7) {
+		if (forcePotion > 7) {
 			parler("J'ai préparé une super potion de force " + forcePotion);	
 		} else {
 			parler("Je n'ai pas trouvé tous les ingrédients, ma potion est seulement de force " + forcePotion);
