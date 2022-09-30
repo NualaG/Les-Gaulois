@@ -15,7 +15,7 @@ public class Gaulois {
 	}
 	
 	public void parler(String texte) {
-		System.out.println(prendreParole() + "« " + texte + "»");
+		System.out.println(prendreParole() + "« " + texte + " »");
 	}
 	
 	private String prendreParole() {
@@ -37,6 +37,8 @@ public class Gaulois {
 		
 		Gaulois asterix = new Gaulois("Asterix", 8);
 		System.out.println(asterix);
+		asterix.parler("Il fait beau dehors");
+		
 	}
 }
 
