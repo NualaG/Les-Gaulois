@@ -37,8 +37,8 @@ public class Gaulois {
 		
 		Gaulois asterix = new Gaulois("Asterix", 8);
 		System.out.println(asterix);
-		asterix.parler("Il fait beau dehors");
-		
+		asterix.parler("Je vais te botter le cul ROMAIN");
+	
 	}
 }
 
