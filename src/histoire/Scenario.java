@@ -6,8 +6,18 @@ public class Scenario {
 		// TODO Auto-generated method stub
 		personnages.Gaulois asterix = new personnages.Gaulois("Astérix", 8);
 		personnages.Romain minus = new personnages.Romain("Minus", 6);
+		personnages.Gaulois obelix = new personnages.Gaulois("Obélix", 0);
+		personnages.Druide panoramix = new personnages.Druide("Panoramix", 5, 10);
 		
-		asterix.parler("Bonjour à tous");
+		panoramix.parler("Je vais aller préparer une petite potion...");
+		panoramix.preparerPotion();
+		panoramix.booster(obelix);
+		
+		obelix.parler("Par Bélénos, ce n'est pas juste !");
+		
+		asterix.boirePotion(panoramix);
+		asterix.parler("Bonjour");
+		
 		minus.parler("UN GAU... UN GAUGAU...");
 		
 		asterix.frapper(minus);
